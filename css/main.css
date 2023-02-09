@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 60% 1fr;
+    background-color: black;
+    height: 95vh;
+    font-family: 'Roboto',sans-serif;
+}
+#lienzo{
+    background-color: #12003d;
+}
+#contador{
+    color: white;
+    gap: 2vmax;
+    justify-content: center;
+    width: 90%;
+    height: 25vmin;
+    border: dashed white 1vmin;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
